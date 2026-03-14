@@ -1,6 +1,7 @@
-[
-  {
-    "tabName": "Basic",
+{
+  "tabbed": true,
+  "Basic": {
+    "tabPosition": 0,
     "Title": {
       "type": "string",
       "default": "",
@@ -159,8 +160,7 @@
       "toolTip": "Total spin multiplicity of the system"
     }
   },
-  {
-    "tabName": "Dynamics",
+  "Dynamics": {
     "AIMD TimeStep": {
       "type": "string",
       "default": "0.5_fs"
@@ -184,8 +184,7 @@
       "default": 200
     }
   },
-  {
-    "tabName": "Excited States",
+  "Excited States": {
     "Excited State Method": {
       "type": "stringList",
       "default": 0,
@@ -208,4 +207,4 @@
       "minimum": 1
     }
   }
-]
+}
